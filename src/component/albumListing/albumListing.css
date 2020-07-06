@@ -22,6 +22,7 @@
     height: 40px;
     width: 190px;
     padding: 5px;
+    cursor: pointer;
 }
 .parent{
     display: flex;

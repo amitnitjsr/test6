@@ -78,8 +78,12 @@ class userListing extends Component {
                                 this.state.userData.map((val) => {
                                     return (
                                         <tr key={val.id}>
-                                            <td>{val.name}</td>
-                                            <td>{val.address.city}</td>
+                                            <td>
+                                                {val.name}
+                                            </td>
+                                            <td>
+                                                {val.address.city}
+                                            </td>
                                         </tr>
                                     )
                                 })
